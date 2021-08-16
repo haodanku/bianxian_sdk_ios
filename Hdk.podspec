@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = "好单库官方流量变现 SDK for iOS"
 
-  s.homepage         =  'https://github.com/haodanku'
+  s.homepage         =  'https://github.com/haodanku/bianxian_sdk_ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WJCha' => 'weejie_chen@icloud.com' }
@@ -30,13 +30,19 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'Hdk/Classes/**/*'
   
-  s.requires_arc = true
+#  s.requires_arc = true
   s.resource = 'Hdk/Assets/HdkSDKResource.bundle'
-  s.vendored_frameworks = 'Hdk/Classes/Hdk.framework'
+  s.vendored_frameworks = 'Hdk/Classes/*.framework'
   s.frameworks  = 'UIKit', 'Foundation', 'WebKit'
 
-  s.platform     = :ios, '8.0'
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '9.0'
+  s.ios.deployment_target = '9.0'
+  
+  s.pod_target_xcconfig = {
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+   }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   
   # s.resource_bundles = {
   #   'Hdk' => ['Hdk/Assets/*.png']
