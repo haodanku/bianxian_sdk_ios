@@ -33,6 +33,12 @@ NS_ASSUME_NONNULL_BEGIN
                failure:(nullable void(^)(HDKError * error))failure;
 
 
+- (void)testAsyncSetAppKey:(NSString *)appKey
+             appSecret:(NSString *)appSecret
+               address:(NSString *)address
+               success:(nullable void(^)(void))success
+               failure:(nullable void(^)(HDKError * error))failure;
+
 
 /// 打开页面
 /// @param controller 控制器

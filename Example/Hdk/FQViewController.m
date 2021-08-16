@@ -7,6 +7,7 @@
 //
 
 #import "FQViewController.h"
+#import <Hdk/Hdk.h>
 
 @interface FQViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor redColor];
+}
+
+
+- (IBAction)click:(id)sender {
+    [[Hdk shareInstance] openPageFromViewController:self];
 }
 
 - (void)didReceiveMemoryWarning

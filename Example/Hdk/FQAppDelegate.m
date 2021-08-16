@@ -7,12 +7,20 @@
 //
 
 #import "FQAppDelegate.h"
+#import <Hdk/Hdk.h>
 
 @implementation FQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[Hdk shareInstance] asyncSetAppKey:@"0" appSecret:@"0" success:^{
+        NSLog(@"成功");
+    } failure:^(HDKError * _Nonnull error) {
+        NSLog(@"失败");
+    }];
+    
     return YES;
 }
 
