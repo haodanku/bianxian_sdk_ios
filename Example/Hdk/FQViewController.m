@@ -15,16 +15,13 @@
 
 @implementation FQViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
 }
 
 
 - (IBAction)click:(id)sender {
-    [[Hdk shareInstance] openPageFromViewController:self];
+    [[Hdk shareInstance] openIndexPageFromViewController:self];
 }
 
 - (void)didReceiveMemoryWarning

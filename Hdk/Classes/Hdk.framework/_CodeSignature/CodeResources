@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/HDKError.h</key>
-		<data>
-		hpqImkDcvTlF8JDFRu90Bxh96NY=
-		</data>
 		<key>Headers/Hdk.h</key>
 		<data>
-		Mg/r8rnIPx2xcnD7JymK35YTC74=
+		cwOY1d3FxRZL1gW6sCmjJsJRaoo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,26 +19,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/HDKError.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hpqImkDcvTlF8JDFRu90Bxh96NY=
-			</data>
-			<key>hash2</key>
-			<data>
-			XkkAYru9zF/cqUzgua5orHKyucQKInpn4a68KbOFPUE=
-			</data>
-		</dict>
 		<key>Headers/Hdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mg/r8rnIPx2xcnD7JymK35YTC74=
+			cwOY1d3FxRZL1gW6sCmjJsJRaoo=
 			</data>
 			<key>hash2</key>
 			<data>
-			toKJORwGidyguG8MSacOP7Cnqv4WlE+Heceda4B09x8=
+			inZL3XSuDxGNU5c2Ozgs6ki8fH69AdJ5MhCDhpSY4m4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

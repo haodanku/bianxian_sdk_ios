@@ -20,9 +20,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRQ-2E-S0Z">
-                                <rect key="frame" x="155" y="149" width="46" height="30"/>
+                                <rect key="frame" x="149" y="149" width="59" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Click Me"/>
                                 <connections>
                                     <action selector="click:" destination="whP-gf-Uak" eventType="touchUpInside" id="AFD-Fr-4S1"/>
                                 </connections>

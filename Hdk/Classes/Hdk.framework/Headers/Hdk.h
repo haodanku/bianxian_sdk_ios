@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Hdk/HDKError.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -14,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Hdk : NSObject
 
 /// 是否打开 log, default is NO
-@property (nonatomic, assign, getter=isDebugLogEnable) BOOL debugLogEnable;
+@property (nonatomic, assign, getter=isDebug) BOOL debug;
 
 /// 宿主控制器
 @property (nonatomic, readonly, weak) UIViewController *hostController;
@@ -25,18 +24,18 @@ NS_ASSUME_NONNULL_BEGIN
 /// 注册 appKey
 /// @param appKey 后台申请的 appKey
 /// @param appSecret 后台申请的 appSecret
-/// @param success 成功回调
-/// @param failure 失败回调
-- (void)asyncSetAppKey:(NSString *)appKey
+/// @param onResult 结果回调
+- (void)initWithAppKey:(NSString *)appKey
              appSecret:(NSString *)appSecret
-               success:(nullable void(^)(void))success
-               failure:(nullable void(^)(HDKError * error))failure;
-
+              onResult:(nullable void(^)(int code , NSString *message))onResult;
 
 
 /// 打开页面
 /// @param controller 控制器
-- (BOOL)openPageFromViewController:(UIViewController *)controller;
+- (BOOL)openIndexPageFromViewController:(UIViewController *)controller;
+
+
+
 /// 关闭页面
 - (void)closePage;
 
