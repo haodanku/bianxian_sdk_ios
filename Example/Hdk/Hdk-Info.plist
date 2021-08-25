@@ -2,46 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-        <string>tbopen</string>
-        <string>tbopen</string>
-        <string>tmall</string>
-        <string>wechat</string>
-        <string>weixin</string>
-        <string>alipays</string>
-        <string>aplipayshare</string>
-        <string>alipay</string>
-        <string>pinduoduo</string>
-        <string>openApp.jdMobile</string>
-        <string>openapp.jdmobile</string>
-        <string>vipshop</string>
-        <string>suning</string>
-        <string>kaola</string>
-        <string>youpin</string>
-        <string>imeituan</string>
-        <string>meituanwaimai</string>
-        <string>sinaweibo</string>
-        <string>tenvideo</string>
-        <string>iqiyi</string>
-        <string>baidumap</string>
-        <string>iosamap</string>
-        <string>appleMap</string>
-        <string>qqmap</string>
-	</array>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>该标识符用于请求位置信息</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>该标识符用于请求相册访问</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>该标识符用于请求相册访问</string>
-    <key>NSUserTrackingUsageDescription</key>
-    <string>该标识符将用于向您投放个性化广告</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -62,8 +22,48 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tbopen</string>
+		<string>tbopen</string>
+		<string>tmall</string>
+		<string>wechat</string>
+		<string>weixin</string>
+		<string>alipays</string>
+		<string>aplipayshare</string>
+		<string>alipay</string>
+		<string>pinduoduo</string>
+		<string>openApp.jdMobile</string>
+		<string>openapp.jdmobile</string>
+		<string>vipshop</string>
+		<string>suning</string>
+		<string>kaola</string>
+		<string>youpin</string>
+		<string>imeituan</string>
+		<string>meituanwaimai</string>
+		<string>sinaweibo</string>
+		<string>tenvideo</string>
+		<string>iqiyi</string>
+		<string>baidumap</string>
+		<string>iosamap</string>
+		<string>appleMap</string>
+		<string>qqmap</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>该标识符用于请求位置信息</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>该标识符用于请求相册访问</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>该标识符用于请求相册访问</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>该标识符将用于向您投放个性化广告</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

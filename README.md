@@ -160,14 +160,6 @@ SDK 默认采集 IDFA 标识，用来分析核对数据，从 iOS 14 开始，�
 [[Hdk shareInstance] openIndexPageFromViewController:self];
 ```
 
-<br />
-
-# ​<br />
-
-
-## Author
-
-WJCha, weejie_chen@icloud.com
 
 ## License
 

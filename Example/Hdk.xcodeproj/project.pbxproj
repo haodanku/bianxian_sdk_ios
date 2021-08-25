@@ -503,7 +503,7 @@
 				GCC_PREFIX_HEADER = "Hdk/Hdk-Prefix.pch";
 				INFOPLIST_FILE = "Hdk/Hdk-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fq.haodanku;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fq.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -521,7 +521,7 @@
 				GCC_PREFIX_HEADER = "Hdk/Hdk-Prefix.pch";
 				INFOPLIST_FILE = "Hdk/Hdk-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fq.haodanku;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fq.sdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
