@@ -4,17 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/HDKError.h</key>
+		<key>Headers/HDKEntryPage.h</key>
 		<data>
-		hpqImkDcvTlF8JDFRu90Bxh96NY=
+		dCpfyIU6P/wpjlEGzTeEPWoXhIk=
 		</data>
 		<key>Headers/Hdk.h</key>
 		<data>
-		iY/2EO2PQy6EkXo1mqs5xRc89Z4=
+		XhB10UQ0faSdRgBt+RGMWzLCplo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ud/26ch9E+KH8Plb27iRZ0tUP0g=
+		mK8cHydIvkRlPQ7FC5P6i7nkfWg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -23,26 +23,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/HDKError.h</key>
+		<key>Headers/HDKEntryPage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hpqImkDcvTlF8JDFRu90Bxh96NY=
+			dCpfyIU6P/wpjlEGzTeEPWoXhIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			XkkAYru9zF/cqUzgua5orHKyucQKInpn4a68KbOFPUE=
+			zZBFeU8WqZAeWmmaty+vFYOBstF/HHJJDWjOCPKNtc0=
 			</data>
 		</dict>
 		<key>Headers/Hdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iY/2EO2PQy6EkXo1mqs5xRc89Z4=
+			XhB10UQ0faSdRgBt+RGMWzLCplo=
 			</data>
 			<key>hash2</key>
 			<data>
-			k8Ls47l4CuK1nr4OjR7KZCgwSo/JDaeQ5CmmoRigvrU=
+			QRZyGfLk+Xh0myIztdG7VdlSsYWXINyzGNpqFBm5vno=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

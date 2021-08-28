@@ -1,62 +1,57 @@
 //
 //  Hdk.h
-//  HDK_SDK
+//  Hdk
 //
 //  Created by 陈威杰 on 2021/8/9.
 //
 
 #import <UIKit/UIKit.h>
-#import <Hdk/HDKError.h>
+#import "HDKEntryPage.h"
 
+typedef NS_ENUM(NSUInteger, HDKPageType) {
+    /// 主页
+    HDKPageTypeMain = 0,
+};
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Hdk : NSObject
 
 /// 是否打开 log, default is NO
-@property (nonatomic, assign, getter=isDebugLogEnable) BOOL debugLogEnable;
+@property (nonatomic, assign, getter=isDebug) BOOL debug;
 
 /// 宿主控制器
-@property (nonatomic, readonly, weak) UIViewController *hostController;
+@property (nonatomic, readonly, weak) UIViewController * _Nullable hostController;
 
 
 + (Hdk *)shareInstance;
 
-/// 注册 appKey
+/// 注册 appKey， 异步
 /// @param appKey 后台申请的 appKey
 /// @param appSecret 后台申请的 appSecret
-/// @param success 成功回调
-/// @param failure 失败回调
-- (void)asyncSetAppKey:(NSString *)appKey
+/// @param onResult 结果回调
+- (void)initWithAppKey:(NSString *)appKey
              appSecret:(NSString *)appSecret
-               success:(nullable void(^)(void))success
-               failure:(nullable void(^)(HDKError * error))failure;
-
-
-- (void)testAsyncSetAppKey:(NSString *)appKey
-             appSecret:(NSString *)appSecret
-               address:(NSString *)address
-               success:(nullable void(^)(void))success
-               failure:(nullable void(^)(HDKError * error))failure;
-
+              onResult:(nullable void(^)(int code , NSString *message))onResult;
 
 /// 打开页面
 /// @param controller 控制器
-- (BOOL)openPageFromViewController:(UIViewController *)controller;
+- (BOOL)openIndexPageFromViewController:(UIViewController *)controller;
+
 /// 关闭页面
+/// 针对 -openIndexPageFromViewController: 方法弹出的页面
 - (void)closePage;
 
-/// 获取 SDK 版本
-+ (NSString *)getSDKVersion;
+/// 获取单页 
+/// @param pageType 单页类型
+- (nullable HDKEntryPage *)getSinglePage:(HDKPageType)pageType;
+
+/// 获取 SDK 版本名
++ (NSString *)getVersionName;
+/// 获取 SDK Build 版本号
++ (NSInteger)getBuildCode;
 
 
-
-/**
- 该方法返回一个 UITabBarController 控制器，如果 SDK 初始化失败，方法返回 nil
- 
- 注意：该方法每调用一次都会返回一个全新的 UITabBarController。
- */
-//- (nullable UITabBarController *)getMainController;
 
 @end
 
