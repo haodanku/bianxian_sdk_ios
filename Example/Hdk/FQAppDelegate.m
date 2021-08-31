@@ -10,24 +10,31 @@
 #import <Hdk/Hdk.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/AdSupport.h>
+#import "FQTabBarController.h"
 
 @implementation FQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    FQTabBarController *tabBar = [[FQTabBarController alloc] init];
+    self.window.rootViewController = tabBar;
+    [self.window makeKeyAndVisible];
+    
     [self requestIDFA];
     
     [[Hdk shareInstance] setDebug:YES];
     
     // 方法异步，请保证初始化前已经取得网络访问权限
-    [[Hdk shareInstance] initWithAppKey:@"demo" appSecret:@"demo" onResult:^(int code, NSString * _Nonnull message) {
-        if (code == 200) {
-            NSLog(@"初始化成功");
-        } else {
-            NSLog(@"初始化失败");
-        }
-    }];
+//    [[Hdk shareInstance] initWithAppKey:@"demo" appSecret:@"demo" onResult:^(int code, NSString * _Nonnull message) {
+//        if (code == 200) {
+//            NSLog(@"初始化成功");
+//        } else {
+//            NSLog(@"初始化失败");
+//        }
+//    }];
     
     return YES;
 }
