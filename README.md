@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Hdk.svg?style=flat)](https://cocoapods.org/pods/Hdk)
 [![Platform](https://img.shields.io/cocoapods/p/Hdk.svg?style=flat)](https://cocoapods.org/pods/Hdk)
 
-** --> [点击](https://fudai.yuque.com/docs/share/fd5e3835-183d-4b83-bf16-101de5cb376f)  **查看最新接入文档。
+ --> [点击](https://fudai.yuque.com/docs/share/fd5e3835-183d-4b83-bf16-101de5cb376f)  查看最新接入文档。
 
 # 一、集成 SDK
 ## 方式一：CocoaPods 引入
