@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'Hdk_Example' do
   pod 'Hdk', :path => '../'
-#  pod 'Hdk' , '~> 1.0.1'
+#  pod 'Hdk', '~> 1.0.3'
   target 'Hdk_Tests' do
     inherit! :search_paths
 
