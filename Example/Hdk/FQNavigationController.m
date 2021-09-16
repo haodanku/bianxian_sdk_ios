@@ -46,7 +46,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationBar.hidden = YES;
+    self.navigationBar.hidden = NO;
 }
 
 
