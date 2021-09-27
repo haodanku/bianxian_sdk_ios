@@ -1,5 +1,5 @@
 PODS:
-  - Hdk (1.0.7)
+  - Hdk (1.0.8)
 
 DEPENDENCIES:
   - Hdk (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Hdk: c30ff2924bd1b657581b71ce7ad5b969aebbd7e8
+  Hdk: c140cbf7743a37f862588e7e10ee83c7fbda840d
 
 PODFILE CHECKSUM: 819a4123a9ee5879bbeb818e8723d98d4291820a
 

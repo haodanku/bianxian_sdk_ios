@@ -11,6 +11,7 @@
 #import "FQHomeViewController.h"
 #import "FQBrandViewController.h"
 #import "FQPresentViewController.h"
+#import "FQKingKongViewController.h"
 
 @interface FQTabBarController ()
 
@@ -45,19 +46,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    // 首页
     FQHomeViewController *home = [[FQHomeViewController alloc] init];
     [self setUpChildController:home normalImage:@"" selectImage:@"" title:@"单页1"];
     
-    // 榜单
     FQBrandViewController *ranking = [[FQBrandViewController alloc] init];
     [self setUpChildController:ranking normalImage:@"" selectImage:@"" title:@"单页2"];
     
-    // 素材
     FQPresentViewController *material = [[FQPresentViewController alloc] init];
     [self setUpChildController:material normalImage:@"" selectImage:@"" title:@"弹出"];
     
+    FQKingKongViewController *kingKong = [[FQKingKongViewController alloc] init];
+    [self setUpChildController:kingKong normalImage:@"" selectImage:@"" title:@"金刚区"];
     
     self.tabBar.translucent = NO;
 
