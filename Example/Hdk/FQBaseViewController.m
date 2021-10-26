@@ -6,6 +6,7 @@
 //
 
 #import "FQBaseViewController.h"
+#import <Hdk/Hdk.h>
 
 @interface FQBaseViewController ()
 
