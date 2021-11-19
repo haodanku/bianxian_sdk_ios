@@ -291,7 +291,7 @@
 				ORGANIZATIONNAME = WJCha;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 2JQVNNFRR8;
+						DevelopmentTeam = K4467W6M7K;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -549,7 +549,7 @@
 			baseConfigurationReference = 773CD330CE6FACE64EF2F7D1 /* Pods-Hdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2JQVNNFRR8;
+				DEVELOPMENT_TEAM = K4467W6M7K;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hdk/Hdk-Prefix.pch";

@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view.
     
     
-    [[Hdk shareInstance] initWithAppKey:@"demo" appSecret:@"demo" onResult:^(int code, NSString * _Nonnull message) {
+    [[Hdk shareInstance] initWithAppKey:@"demo" onResult:^(int code, NSString * _Nonnull message) {
         if (code == 200) {
             HDKEntryPage *page = [[Hdk shareInstance] getSinglePage:HDKPageTypeMain];
             page.delegate = self;
