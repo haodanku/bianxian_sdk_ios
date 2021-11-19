@@ -1,6 +1,10 @@
 {
   "name": "Hdk",
+<<<<<<< HEAD
   "version": "1.1.0",
+=======
+  "version": "1.0.10",
+>>>>>>> 47e3f9522377110a9ad86cc57a1076af402c6434
   "summary": "好单库流量变现SDK",
   "description": "好单库官方流量变现 SDK for iOS",
   "homepage": "https://github.com/haodanku/bianxian_sdk_ios",
@@ -13,7 +17,11 @@
   },
   "source": {
     "git": "https://github.com/haodanku/bianxian_sdk_ios.git",
+<<<<<<< HEAD
     "tag": "1.1.0"
+=======
+    "tag": "1.0.10"
+>>>>>>> 47e3f9522377110a9ad86cc57a1076af402c6434
   },
   "resources": "Hdk/Assets/HdkSDKResource.bundle",
   "vendored_frameworks": "Hdk/Classes/*.framework",
