@@ -49,10 +49,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     FQHomeViewController *home = [[FQHomeViewController alloc] init];
-    [self setUpChildController:home normalImage:@"" selectImage:@"" title:@"单页1"];
-    
-    FQBrandViewController *ranking = [[FQBrandViewController alloc] init];
-    [self setUpChildController:ranking normalImage:@"" selectImage:@"" title:@"单页2"];
+    [self setUpChildController:home normalImage:@"" selectImage:@"" title:@"单页"];
     
     FQPresentViewController *material = [[FQPresentViewController alloc] init];
     [self setUpChildController:material normalImage:@"" selectImage:@"" title:@"弹出"];
