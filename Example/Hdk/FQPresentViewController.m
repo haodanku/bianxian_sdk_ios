@@ -31,8 +31,9 @@
 }
 
 - (void)onClickButton {
-    NSLog(@"%@", [Hdk getVersionName]);
-    [[Hdk shareInstance] initWithAppKey:@"demo" appSecret:@"demo" onResult:^(int code, NSString * _Nonnull message) {
+
+    [[Hdk shareInstance] initWithAppKey:@"demo" onResult:^(int code, NSString * _Nonnull message) {
+
         if (code == 200) {
             [[Hdk shareInstance] openIndexPageFromViewController:self];
         } 

@@ -1,6 +1,0 @@
-framework module Hdk {
-  umbrella header "Hdk.h"
-
-  export *
-  module * { export * }
-}

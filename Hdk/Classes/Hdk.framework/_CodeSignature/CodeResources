@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/HDKEntryElement.h</key>
+		<data>
+		/fn1lvhFC9uxSCPrBTVjifI+VXg=
+		</data>
 		<key>Headers/HDKEntryPage.h</key>
 		<data>
-		xpjhz103V5kozkaRLFs6Is1kywk=
+		vFe4jZAWLyzwW6nz+2zNqLvaoHM=
 		</data>
 		<key>Headers/Hdk.h</key>
 		<data>
-		wStUjGdUZFovEc61zVxCwWrSBDo=
+		UX0ZhmopwhDRuZsFazFk7TujGDg=
+		</data>
+		<key>Headers/HdkAgentInfo.h</key>
+		<data>
+		+lh5dvZQo9aIw/CUS8Uo1/XPCsY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,26 +31,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/HDKEntryElement.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/fn1lvhFC9uxSCPrBTVjifI+VXg=
+			</data>
+			<key>hash2</key>
+			<data>
+			b8E9kt5qEvPvLvaAo4IVtBH6WF101+5W+vPbBMUr0Mw=
+			</data>
+		</dict>
 		<key>Headers/HDKEntryPage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xpjhz103V5kozkaRLFs6Is1kywk=
+			vFe4jZAWLyzwW6nz+2zNqLvaoHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2OwuYGdJu8t4qDtGGgtTP/SlCB5fq8BAMCZSdHakSRc=
+			CPs0EVRURhKEVhVKzVvCASNAx5t4K7j6pJzZrbbTEsc=
 			</data>
 		</dict>
 		<key>Headers/Hdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wStUjGdUZFovEc61zVxCwWrSBDo=
+			UX0ZhmopwhDRuZsFazFk7TujGDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GuKR5P789hOa8NKi2CZk65oxxBcfkfNuCph0tiZCXHA=
+			dxIOvEYtIV1YV8TTEeuNE1el14FaxPMxZfqOBuYnDsY=
+			</data>
+		</dict>
+		<key>Headers/HdkAgentInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+lh5dvZQo9aIw/CUS8Uo1/XPCsY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6xu8IzvZ1fSyHBbtRli09JdfxqmiJtgvRKxQg5UrHWI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
