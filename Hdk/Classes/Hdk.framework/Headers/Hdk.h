@@ -9,6 +9,9 @@
 #import "HDKEntryPage.h"
 #import "HDKEntryElement.h"
 #import "HdkAgentInfo.h"
+#import "HdkNavigateModel.h"
+#import "HdkNavigate.h"
+#import "HdkNavigateCenter.h"
 
 typedef NS_ENUM(NSUInteger, HDKPageType) {
     /// 主页
@@ -172,6 +175,26 @@ NS_ASSUME_NONNULL_BEGIN
                                   contentViewController:(nullable Class)viewControllerClass
                                      fromViewController:(nullable UIViewController *)fromViewController
                                            requestState:(nullable void(^)(BOOL isLoading))requestState;
+
+/// 页面点击事件 (通过该方法打开页面)
+/// @param modulePage 模块类型
+/// @param model 打开模块需要的参数（钱包模块需要 token 如 @{ @"token" : "..."}, 详见接入文档）
+/// @param contentInsets 内容内边距（只对接入的单页有效）
+/// @param viewControllerClass 内容控制器类型（监听控制器生命周期、可用于导航栏的显隐藏），默认隐藏导航栏，消失显示导航栏
+/// @param fromViewController 用于 push 的控制器
+- (void)eventClick:(HDKModulePage)modulePage model:(HdkNavigateModel *)model
+                                     contentInsets:(UIEdgeInsets)contentInsets
+                             contentViewController:(nullable Class)viewControllerClass
+                                fromViewController:(nullable UIViewController *)fromViewController;
+
+/// 页面点击事件 (通过该方法打开页面)
+/// @param modulePage 模块类型
+/// @param model 打开模块需要的参数（钱包模块需要 token 如 @{ @"token" : "..."}, 详见接入文档）
+/// @param viewControllerClass 内容控制器类型（监听控制器生命周期、可用于导航栏的显隐藏），默认隐藏导航栏，消失显示导航栏
+/// @param fromViewController 用于 push 的控制器
+- (void)eventClick:(HDKModulePage)modulePage model:(HdkNavigateModel *)model
+                             contentViewController:(nullable Class)viewControllerClass
+                                fromViewController:(nullable UIViewController *)fromViewController;
 
 #pragma mark - 版本号获取
 

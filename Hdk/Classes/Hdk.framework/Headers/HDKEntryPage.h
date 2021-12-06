@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 返回内容视图的内边距，默认布局在安全区域内
 - (UIEdgeInsets)edgeInsetsForEntryPage:(HDKEntryPage *)entryPage;
 
-
 @end
 
 

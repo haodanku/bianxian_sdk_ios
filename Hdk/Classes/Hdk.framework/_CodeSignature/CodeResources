@@ -6,19 +6,31 @@
 	<dict>
 		<key>Headers/HDKEntryElement.h</key>
 		<data>
-		/fn1lvhFC9uxSCPrBTVjifI+VXg=
+		ZLBuu/sVGowo/Ag31y/Iz2Bg0jU=
 		</data>
 		<key>Headers/HDKEntryPage.h</key>
 		<data>
-		vFe4jZAWLyzwW6nz+2zNqLvaoHM=
+		iiCaT7NwUE6H/iLTgp/MqiaKgOE=
 		</data>
 		<key>Headers/Hdk.h</key>
 		<data>
-		UX0ZhmopwhDRuZsFazFk7TujGDg=
+		JevKCr4k1r03Ad3ELWKOAw2Dexo=
 		</data>
 		<key>Headers/HdkAgentInfo.h</key>
 		<data>
 		+lh5dvZQo9aIw/CUS8Uo1/XPCsY=
+		</data>
+		<key>Headers/HdkNavigate.h</key>
+		<data>
+		TpjmiHBDv3/J49wG5e2dhgp7NZ8=
+		</data>
+		<key>Headers/HdkNavigateCenter.h</key>
+		<data>
+		ikc5HfuQn5efmEAnCeIY4vslg/Y=
+		</data>
+		<key>Headers/HdkNavigateModel.h</key>
+		<data>
+		lpgYnlresF6eGua8RfyyMIulJxQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -35,33 +47,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/fn1lvhFC9uxSCPrBTVjifI+VXg=
+			ZLBuu/sVGowo/Ag31y/Iz2Bg0jU=
 			</data>
 			<key>hash2</key>
 			<data>
-			b8E9kt5qEvPvLvaAo4IVtBH6WF101+5W+vPbBMUr0Mw=
+			tkYkgOloZw5I9i40PzgMREsdbPf01hRj2E9wQSLgP/k=
 			</data>
 		</dict>
 		<key>Headers/HDKEntryPage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vFe4jZAWLyzwW6nz+2zNqLvaoHM=
+			iiCaT7NwUE6H/iLTgp/MqiaKgOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CPs0EVRURhKEVhVKzVvCASNAx5t4K7j6pJzZrbbTEsc=
+			BUVg07eCEXunpJGiniVApTwk5wkQo/AhlNKYFLELcRk=
 			</data>
 		</dict>
 		<key>Headers/Hdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UX0ZhmopwhDRuZsFazFk7TujGDg=
+			JevKCr4k1r03Ad3ELWKOAw2Dexo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dxIOvEYtIV1YV8TTEeuNE1el14FaxPMxZfqOBuYnDsY=
+			EZRxiBflbbLVVEx35utbVsWPV61nzOI5N7W7FOO7L84=
 			</data>
 		</dict>
 		<key>Headers/HdkAgentInfo.h</key>
@@ -73,6 +85,39 @@
 			<key>hash2</key>
 			<data>
 			6xu8IzvZ1fSyHBbtRli09JdfxqmiJtgvRKxQg5UrHWI=
+			</data>
+		</dict>
+		<key>Headers/HdkNavigate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TpjmiHBDv3/J49wG5e2dhgp7NZ8=
+			</data>
+			<key>hash2</key>
+			<data>
+			iYCqptzoSOVJc6OmCXdCDKl4dAGdwcW/k6/Gss1jzL4=
+			</data>
+		</dict>
+		<key>Headers/HdkNavigateCenter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ikc5HfuQn5efmEAnCeIY4vslg/Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			tW+4704fBweGS6ggqOuZfex2s8unrUHkJqGeTapbJw8=
+			</data>
+		</dict>
+		<key>Headers/HdkNavigateModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lpgYnlresF6eGua8RfyyMIulJxQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			za65FptYbn/6rOLdugGGGZKvgcy+8AMkGVNy+Kgg5sM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

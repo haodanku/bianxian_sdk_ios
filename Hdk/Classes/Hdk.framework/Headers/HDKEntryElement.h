@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSUInteger, HDKEntryElementType) {
     /// 今日值得买
     HDKEntryElementTypeTodayBuy = 0,
+    /// 外卖瓷片区
+    HDKEntryElementTypeTakeaway = 1
 };
 
 
@@ -74,7 +76,7 @@ typedef NS_ENUM(NSUInteger, HDKEntryElementType) {
 - (UIEdgeInsets)edgeInsetsForEntryElement:(HDKEntryElement *)entryElement;
 
 
-
+ 
 @end
 
 NS_ASSUME_NONNULL_END
