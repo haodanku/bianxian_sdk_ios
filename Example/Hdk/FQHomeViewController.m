@@ -9,7 +9,8 @@
 #import "FQHomeViewController.h"
 #import <Hdk/Hdk.h>
 
-@interface FQHomeViewController ()<HDKEntryPagePushDelegate>
+@interface FQHomeViewController ()
+//<HDKEntryPagePushDelegate>
 
 @end
 
@@ -30,7 +31,7 @@
     [[Hdk shareInstance] initWithAppKey:@"demo" onResult:^(int code, NSString * _Nonnull message) {
         if (code == 200) {
             HDKEntryPage *page = [[Hdk shareInstance] getSinglePage:HDKPageTypeMain];
-            page.pushDelegate = self;
+//            page.pushDelegate = self;
             UIViewController *vc = page.viewController;
             vc.view.frame = CGRectMake(0, top/*获取状态栏的高度*/, self.view.frame.size.width, self.view.frame.size.height-top);
             [self addChildViewController:vc];
