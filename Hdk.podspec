@@ -39,11 +39,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   s.pod_target_xcconfig = {
-     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+     'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64'
    }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64' }
+#  s.pod_target_xcconfig = {  }
+  
   # s.resource_bundles = {
   #   'Hdk' => ['Hdk/Assets/*.png']
   # }
