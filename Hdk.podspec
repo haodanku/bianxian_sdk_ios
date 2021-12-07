@@ -39,8 +39,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   s.pod_target_xcconfig = {
-     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-     'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64'
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
    }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
@@ -52,5 +51,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SDWebImage','>4.4.7'
+   s.dependency 'Masonry'
 end

@@ -1,5 +1,7 @@
 PODS:
-  - Hdk (1.1.3)
+  - Hdk (1.1.3):
+    - Masonry
+    - SDWebImage (> 4.4.7)
   - Masonry (1.1.0)
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
@@ -20,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Hdk: d2e9e7179cd5b299454fa14296da85522dc9478a
+  Hdk: 1b4e9e97d000b305034021d3a84c37c9fc1cf0cd
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
 
